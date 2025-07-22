@@ -27,3 +27,20 @@ body {
 .button, #listen-button, #audio-control {
     font-family: 'Overpass Mono', monospace;
 }
+
+/* button-animation.css (puedes añadirlo a tu simple-styles.css) */
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.1s ease; /* Transición suave para el clic */
+}
+
+.animated-click {
+    transform: scale(0.95); /* Encoge un poco el botón al hacer clic */
+}
