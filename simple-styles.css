@@ -1,0 +1,29 @@
+/* Importamos la fuente Overpass Mono desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+/* --- Aquí tus estilos generales --- */
+
+body {
+    background-color: #0A0A0A; /* Jet Black */
+    color: #61dafb; /* Un azul claro vibrante */
+    font-family: 'Overpass Mono', monospace; /* Aplicamos la fuente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.message {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(97, 218, 251, 0.5);
+}
+
+/* Si tienes otros elementos, como los botones, puedes añadir la fuente aquí también */
+.button, #listen-button, #audio-control {
+    font-family: 'Overpass Mono', monospace;
+}
